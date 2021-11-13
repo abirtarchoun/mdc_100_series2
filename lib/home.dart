@@ -30,6 +30,16 @@ class HomePage extends StatelessWidget {
         // TODO: Add buttons and title (102)
         title: const Text('SHRINE'),
         // TODO: Add trailing buttons (102)
+        leading: IconButton(
+          icon: const Icon(
+            Icons.menu,
+            semanticLabel: 'menu',
+          ),
+
+          onPressed: () {
+            print('Menu button');
+          },
+        ),
       ),
       // TODO: Add a grid view (102)
         body: const Center(
